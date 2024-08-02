@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aisc2013finalexam:
+    image: aisc2013finalexam
+    build:
+      context: .
+      dockerfile: ./Dockerfile
